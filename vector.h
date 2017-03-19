@@ -68,7 +68,7 @@ public:
 	Const_Iterator begin() const;
 	Const_Iterator end() const;
 
-	/* GLOBALE Friend FUnktion*/ 
+	/* GLOBALE Friend Funktion*/ 
 	friend difference_type operator-(const Const_Iterator& lop, const Const_Iterator& rop) {
 	return lop.ptr - rop.ptr;}
 
